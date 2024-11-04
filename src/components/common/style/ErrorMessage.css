@@ -1,0 +1,53 @@
+.error-message {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.error-icon {
+    width: 24px;
+    height: 24px;
+    fill: #856404;
+    margin-right: 10px;
+}
+
+.error-message p {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.error-retry {
+    background-color: #856404;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.error-retry:hover {
+    background-color: #6a5003;
+}
+
+@media (max-width: 768px) {
+    .error-message {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .error-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .error-retry {
+        margin-top: 10px;
+    }
+}
