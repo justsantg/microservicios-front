@@ -1,0 +1,71 @@
+.membership-status {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .membership-info {
+    margin: 20px 0;
+  }
+  
+  .membership-type,
+  .membership-validity {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .label {
+    color: #666;
+    font-weight: 500;
+  }
+  
+  .value {
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .membership-status-indicator {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .membership-status-indicator.active {
+    background-color: #e6f4ea;
+    color: #137333;
+  }
+  
+  .membership-benefits {
+    margin-top: 20px;
+  }
+  
+  .membership-benefits h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .membership-benefits ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .membership-benefits li {
+    padding: 8px 0;
+    color: #666;
+    display: flex;
+    align-items: center;
+  }
+  
+  .membership-benefits li:before {
+    content: "✓";
+    color: #137333;
+    margin-right: 8px;
+  }

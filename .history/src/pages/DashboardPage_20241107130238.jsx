@@ -1,6 +1,6 @@
 import React from 'react';
 import useAuth from '../hooks/useAuth';
-import { MembershipStatus } from '../components/membership/MembershipStatus';
+import { MembershipStatus } from '../components/membership/MembershipStatus.css';
 import { PaymentHistory } from '../components/payments/PaymentHistory';
 import { ClassList } from '../components/classes/ClassList';
 import './DashboardPage.css';
